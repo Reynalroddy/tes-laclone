@@ -37,7 +37,7 @@ height:40,
 backgroundColor:'yellow', 
 justifyContent:'center',
 alignItems:'center',
-borderRadius:20,
+borderRadius:15,
     },
     txt:{
       fontSize:12,
