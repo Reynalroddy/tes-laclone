@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, StyleSheet, Text, Button,TextInput,FlatList,TouchableOpacity,ImageBackground} from 'react-native';
-
+import Btn from '../shared/Btn'
 const CarItem = () => {
     return (
         <View style={styles.carItemCont}>
@@ -8,6 +8,8 @@ const CarItem = () => {
 <View style={styles.carItemText}>
 <Text style={styles.title}>Model S</Text>
 <Text style={styles.subtitle}>starting at $69.40</Text>
+<Btn type="primary" val='custom order' ></Btn>
+<Btn type="secondary" val='existing inventory'></Btn>
 </View>
 </ImageBackground>
 
@@ -44,8 +46,7 @@ color:'#5c5e62',
 
     },
 bgImg:{
-
-    width:'100%',
+width:'100%',
 height:'100%',
 resizeMode:'cover',
 position:'absolute',
