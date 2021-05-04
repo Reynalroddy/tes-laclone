@@ -15,7 +15,7 @@ export default Header
 const styles= StyleSheet.create({
 
     headCont:{
-        top:40,
+        top:35,
         width:'100%',
         zIndex:100,
         flexDirection:'row',
